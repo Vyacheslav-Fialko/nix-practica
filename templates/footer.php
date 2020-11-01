@@ -3,7 +3,7 @@ function footerHTML(string $var):string
 {
     return '</main>
     <footer>
-        <a href="#"'.$var.'>GitHub commit link</a>
+        <a href=""'.$var.'>GitHub commit link</a>
     </footer>
     </body>
 
