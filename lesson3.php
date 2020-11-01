@@ -14,4 +14,4 @@ if ($_GET['text'] ?? null) {
             </form>';
 }
 
-echo footerHTML('link');
+echo footerHTML('https://github.com/Vyacheslav-Fialko/nix-pratica/commit/b1c0716d2edb8cdcc36abe62cb4ebfb340bc2bd9');
