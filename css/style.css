@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(156, 181, 196);
+}
+
+header>a {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: dimgray;
+    transition: all .3s;
+}
+
+header>a:hover {
+    text-shadow: 2px 2px 5px rgb(156, 181, 196);
+    letter-spacing: 3px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    margin: 0 10px;
+    padding: 5px 15px;
+    border: 1px solid rgb(156, 181, 196);
+    border-radius: 3px;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+nav>a:hover {
+    background-color: darkgray;
+    color: teal;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid teal;
+}
+
+.table>div{
+    flex-basis: 20%;
+    border:1px solid teal;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+form>input{
+    padding: 5px 10px;
+    margin: 20px;
+}
+form>button{
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: darkturquoise;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.reverse{
+    text-align: center;
+    font-style: 36px;
+    color: firebrick;
+}
+
+.back {
+    display: block;
+    text-align: center;
+    width: 80px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: hotpink;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid rgb(156, 181, 196);
+    margin-top: auto;
+}
+
+footer>a {
+    font-size: 18px;
+    font-style: italic;
+    color: dimgray;
+    text-decoration: none;
+}
+
+footer>a:hover {
+    text-decoration: underline;
+}
