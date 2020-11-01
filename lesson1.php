@@ -15,4 +15,4 @@ for ($i=1; $i <= 10; $i++) {
 }
 
 echo '</div>';
-echo footerHTML('link');
+echo footerHTML('https://github.com/Vyacheslav-Fialko/nix-pratica/commit/b9122db974a18526d8b1760311e2932b281d176a');
